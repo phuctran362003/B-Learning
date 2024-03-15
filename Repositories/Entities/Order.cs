@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace Repositories.Entities
 {
+
+    //test github in Order class
     public partial class Order
     {
         public Order()

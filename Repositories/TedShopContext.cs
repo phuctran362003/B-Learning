@@ -29,7 +29,7 @@ namespace Repositories
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Data Source= Dev-PhucTr\\PHUCTRANN;Initial Catalog=TedShop;User ID=sa;Password=12345;Connect Timeout=30;Encrypt=True;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+                optionsBuilder.UseSqlServer(GetConnectionString());
             }
         }
         private string GetConnectionString()
