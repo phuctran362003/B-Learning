@@ -5,6 +5,7 @@ namespace Repositories.Entities
 {
 
     //test github in Order class
+    // 2nd test in UI
     public partial class Order
     {
         public Order()
