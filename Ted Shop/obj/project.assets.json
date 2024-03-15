@@ -2322,9 +2322,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop.csproj",
-      "projectName": "Ted Shop",
-      "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop.csproj",
+      "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
+      "projectName": "Ted Shop System",
+      "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
       "packagesPath": "C:\\Users\\Asus FX505DT\\.nuget\\packages\\",
       "outputPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\obj\\",
       "projectStyle": "PackageReference",

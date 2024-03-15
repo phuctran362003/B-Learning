@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nJQ41j3MJwSqB/Sy4LQsTepRUZZew0Ly5sSb592k06K8yjv/JLKxJFvDn/qOKUlXmXMUbfLRIoK2TKIR6fztUQ==",
+  "dgSpecHash": "7fSIs0qlUbvPXbNtjnpIoeueN2uUVG9z8Q2sGt2C2tyVKq2oIWQK5w12VSjEc1xPAsG4kxqU2X85Ii7pIwxB8g==",
   "success": true,
-  "projectFilePath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop.csproj",
+  "projectFilePath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus FX505DT\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus FX505DT\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

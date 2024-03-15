@@ -1,8 +1,8 @@
 namespace Ted_Shop
 {
-    public partial class Form1 : Form
+    public partial class CartForm : Form
     {
-        public Form1()
+        public CartForm()
         {
             InitializeComponent();
         }
