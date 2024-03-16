@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Ted_Shop
 {
-    public partial class TedShopSystemForm : Form
+    public partial class SummaryReportForm : Form
     {
-        public TedShopSystemForm()
+        public SummaryReportForm()
         {
             InitializeComponent();
-        }
-
-        private void toolStripButton3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripButton7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
