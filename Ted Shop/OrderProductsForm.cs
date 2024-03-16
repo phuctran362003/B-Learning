@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ted_Shop
 {
-    public partial class DetailProductForm : Form
+    public partial class OrderProductsForm : Form
     {
-        public DetailProductForm()
+        public OrderProductsForm()
         {
             InitializeComponent();
         }
