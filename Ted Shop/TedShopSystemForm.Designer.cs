@@ -28,174 +28,158 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TedShopSystemForm));
+            lblOrder = new Label();
+            lblDelivery = new Label();
+            lblReport = new Label();
+            lblStaff = new Label();
+            groupBox1 = new GroupBox();
+            monthCalendar1 = new MonthCalendar();
+            lblSelectDate = new Label();
+            lblSoldProduct = new Label();
             dataGridView1 = new DataGridView();
-            dateTimePicker1 = new DateTimePicker();
             label1 = new Label();
-            toolStrip1 = new ToolStrip();
-            toolStrip2 = new ToolStrip();
-            toolStripButton1 = new ToolStripButton();
-            toolStripButton2 = new ToolStripButton();
-            toolStripButton3 = new ToolStripButton();
-            btnOrder = new ToolStripButton();
-            btnDelivery = new ToolStripButton();
-            btnReport = new ToolStripButton();
-            btnStaff = new ToolStripButton();
+            textBox1 = new TextBox();
+            groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            toolStrip1.SuspendLayout();
-            toolStrip2.SuspendLayout();
             SuspendLayout();
+            // 
+            // lblOrder
+            // 
+            lblOrder.AutoSize = true;
+            lblOrder.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblOrder.Location = new Point(12, 9);
+            lblOrder.Name = "lblOrder";
+            lblOrder.Size = new Size(43, 17);
+            lblOrder.TabIndex = 0;
+            lblOrder.Text = "Order";
+            // 
+            // lblDelivery
+            // 
+            lblDelivery.AutoSize = true;
+            lblDelivery.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblDelivery.Location = new Point(72, 9);
+            lblDelivery.Name = "lblDelivery";
+            lblDelivery.Size = new Size(54, 17);
+            lblDelivery.TabIndex = 1;
+            lblDelivery.Text = "Delivery";
+            // 
+            // lblReport
+            // 
+            lblReport.AutoSize = true;
+            lblReport.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblReport.Location = new Point(142, 9);
+            lblReport.Name = "lblReport";
+            lblReport.Size = new Size(48, 17);
+            lblReport.TabIndex = 2;
+            lblReport.Text = "Report";
+            // 
+            // lblStaff
+            // 
+            lblStaff.AutoSize = true;
+            lblStaff.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblStaff.Location = new Point(206, 9);
+            lblStaff.Name = "lblStaff";
+            lblStaff.Size = new Size(34, 17);
+            lblStaff.TabIndex = 3;
+            lblStaff.Text = "Staff";
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(textBox1);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Controls.Add(dataGridView1);
+            groupBox1.Controls.Add(lblSoldProduct);
+            groupBox1.Controls.Add(lblSelectDate);
+            groupBox1.Controls.Add(monthCalendar1);
+            groupBox1.Location = new Point(12, 65);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(963, 457);
+            groupBox1.TabIndex = 6;
+            groupBox1.TabStop = false;
+            // 
+            // monthCalendar1
+            // 
+            monthCalendar1.Location = new Point(403, 28);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 6;
+            // 
+            // lblSelectDate
+            // 
+            lblSelectDate.AutoSize = true;
+            lblSelectDate.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblSelectDate.Location = new Point(234, 110);
+            lblSelectDate.Name = "lblSelectDate";
+            lblSelectDate.Size = new Size(157, 17);
+            lblSelectDate.TabIndex = 7;
+            lblSelectDate.Text = "Select From Date to Date:";
+            // 
+            // lblSoldProduct
+            // 
+            lblSoldProduct.AutoSize = true;
+            lblSoldProduct.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblSoldProduct.Location = new Point(25, 173);
+            lblSoldProduct.Name = "lblSoldProduct";
+            lblSoldProduct.Size = new Size(125, 17);
+            lblSoldProduct.TabIndex = 8;
+            lblSoldProduct.Text = "List of sold product:";
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 223);
+            dataGridView1.Location = new Point(25, 202);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(975, 281);
-            dataGridView1.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(199, 190);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(265, 27);
-            dateTimePicker1.TabIndex = 1;
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(914, 187);
+            dataGridView1.TabIndex = 9;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 195);
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(487, 417);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 2;
-            label1.Text = "label1";
+            label1.Size = new Size(143, 17);
+            label1.TabIndex = 10;
+            label1.Text = "Total benefit amount:";
             // 
-            // toolStrip1
+            // textBox1
             // 
-            toolStrip1.ImageScalingSize = new Size(20, 20);
-            toolStrip1.Items.AddRange(new ToolStripItem[] { btnOrder, btnDelivery, btnReport, btnStaff });
-            toolStrip1.Location = new Point(0, 0);
-            toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(971, 27);
-            toolStrip1.TabIndex = 3;
-            toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStrip2
-            // 
-            toolStrip2.ImageScalingSize = new Size(20, 20);
-            toolStrip2.Items.AddRange(new ToolStripItem[] { toolStripButton1, toolStripButton2, toolStripButton3 });
-            toolStrip2.Location = new Point(0, 27);
-            toolStrip2.Name = "toolStrip2";
-            toolStrip2.Size = new Size(971, 31);
-            toolStrip2.TabIndex = 4;
-            toolStrip2.Text = "toolStrip2";
-            // 
-            // toolStripButton1
-            // 
-            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
-            toolStripButton1.ImageTransparentColor = Color.Magenta;
-            toolStripButton1.Name = "toolStripButton1";
-            toolStripButton1.Size = new Size(29, 28);
-            toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            toolStripButton2.AutoSize = false;
-            toolStripButton2.AutoToolTip = false;
-            toolStripButton2.Checked = true;
-            toolStripButton2.CheckState = CheckState.Checked;
-            toolStripButton2.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton2.Image = (Image)resources.GetObject("toolStripButton2.Image");
-            toolStripButton2.ImageTransparentColor = Color.Magenta;
-            toolStripButton2.Name = "toolStripButton2";
-            toolStripButton2.Size = new Size(29, 28);
-            toolStripButton2.Text = "toolStripButton2";
-            // 
-            // toolStripButton3
-            // 
-            toolStripButton3.AutoSize = false;
-            toolStripButton3.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            toolStripButton3.Image = (Image)resources.GetObject("toolStripButton3.Image");
-            toolStripButton3.ImageTransparentColor = Color.Magenta;
-            toolStripButton3.Name = "toolStripButton3";
-            toolStripButton3.Size = new Size(29, 28);
-            toolStripButton3.Text = "toolStripButton3";
-            toolStripButton3.Click += toolStripButton3_Click;
-            // 
-            // btnOrder
-            // 
-            btnOrder.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            btnOrder.Image = (Image)resources.GetObject("btnOrder.Image");
-            btnOrder.ImageTransparentColor = Color.Magenta;
-            btnOrder.Name = "btnOrder";
-            btnOrder.Size = new Size(51, 24);
-            btnOrder.Text = "Order";
-            // 
-            // btnDelivery
-            // 
-            btnDelivery.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            btnDelivery.Image = (Image)resources.GetObject("btnDelivery.Image");
-            btnDelivery.ImageTransparentColor = Color.Magenta;
-            btnDelivery.Name = "btnDelivery";
-            btnDelivery.Size = new Size(67, 24);
-            btnDelivery.Text = "Delivery";
-            // 
-            // btnReport
-            // 
-            btnReport.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            btnReport.Image = (Image)resources.GetObject("btnReport.Image");
-            btnReport.ImageTransparentColor = Color.Magenta;
-            btnReport.Name = "btnReport";
-            btnReport.Size = new Size(58, 24);
-            btnReport.Text = "Report";
-            // 
-            // btnStaff
-            // 
-            btnStaff.DisplayStyle = ToolStripItemDisplayStyle.Text;
-            btnStaff.Image = (Image)resources.GetObject("btnStaff.Image");
-            btnStaff.ImageTransparentColor = Color.Magenta;
-            btnStaff.Name = "btnStaff";
-            btnStaff.Size = new Size(44, 24);
-            btnStaff.Text = "Staff";
-            btnStaff.Click += toolStripButton7_Click;
+            textBox1.Location = new Point(654, 411);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(111, 23);
+            textBox1.TabIndex = 11;
             // 
             // TedShopSystemForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(971, 500);
-            Controls.Add(toolStrip2);
-            Controls.Add(toolStrip1);
-            Controls.Add(label1);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(985, 564);
+            Controls.Add(groupBox1);
+            Controls.Add(lblStaff);
+            Controls.Add(lblReport);
+            Controls.Add(lblDelivery);
+            Controls.Add(lblOrder);
             Name = "TedShopSystemForm";
-            Text = "Form1";
+            Text = "Ted Shop System";
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            toolStrip1.ResumeLayout(false);
-            toolStrip1.PerformLayout();
-            toolStrip2.ResumeLayout(false);
-            toolStrip2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private DateTimePicker dateTimePicker1;
+        private Label lblOrder;
+        private Label lblDelivery;
+        private Label lblReport;
+        private Label lblStaff;
+        private GroupBox groupBox1;
         private Label label1;
-        private ToolStrip toolStrip1;
-        private ToolStrip toolStrip2;
-        private ToolStripButton toolStripButton1;
-        private ToolStripButton toolStripButton2;
-        private ToolStripButton toolStripButton3;
-        private ToolStripButton btnOrder;
-        private ToolStripButton btnDelivery;
-        private ToolStripButton btnReport;
-        private ToolStripButton btnStaff;
+        private DataGridView dataGridView1;
+        private Label lblSoldProduct;
+        private Label lblSelectDate;
+        private MonthCalendar monthCalendar1;
+        private TextBox textBox1;
     }
 }
