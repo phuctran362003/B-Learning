@@ -2316,24 +2316,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus FX505DT\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
+      "projectUniqueName": "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj",
       "projectName": "Ted Shop System",
-      "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
-      "packagesPath": "C:\\Users\\Asus FX505DT\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\obj\\",
+      "projectPath": "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\B-Learning\\Ted Shop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Asus FX505DT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2341,15 +2336,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj": {
-              "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj"
+            "E:\\B-Learning\\Services\\Services.csproj": {
+              "projectPath": "E:\\B-Learning\\Services\\Services.csproj"
             }
           }
         }
@@ -2374,6 +2368,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

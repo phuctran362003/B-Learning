@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj": {}
+    "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj": {}
   },
   "projects": {
-    "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\Repositories.csproj": {
+    "E:\\B-Learning\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "E:\\B-Learning\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\Asus FX505DT\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\obj\\",
+        "projectPath": "E:\\B-Learning\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\B-Learning\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus FX505DT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,6 +80,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -94,21 +103,17 @@
         }
       }
     },
-    "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj": {
+    "E:\\B-Learning\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj",
+        "projectUniqueName": "E:\\B-Learning\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Asus FX505DT\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\obj\\",
+        "projectPath": "E:\\B-Learning\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\B-Learning\\Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus FX505DT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,15 +121,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Repositories\\Repositories.csproj"
+              "E:\\B-Learning\\Repositories\\Repositories.csproj": {
+                "projectPath": "E:\\B-Learning\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -149,6 +153,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -158,21 +176,17 @@
         }
       }
     },
-    "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj": {
+    "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
+        "projectUniqueName": "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj",
         "projectName": "Ted Shop System",
-        "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\Ted Shop System.csproj",
-        "packagesPath": "C:\\Users\\Asus FX505DT\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Ted Shop\\obj\\",
+        "projectPath": "E:\\B-Learning\\Ted Shop\\Ted Shop System.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\B-Learning\\Ted Shop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asus FX505DT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,15 +194,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj": {
-                "projectPath": "D:\\FPT\\B-Learning\\AssignmentPRN\\Services\\Services.csproj"
+              "E:\\B-Learning\\Services\\Services.csproj": {
+                "projectPath": "E:\\B-Learning\\Services\\Services.csproj"
               }
             }
           }
@@ -213,6 +226,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
