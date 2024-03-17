@@ -1,0 +1,33 @@
+Staff Registration Form:
+Allows the manager to register new staff members.
+
+Product Type Registration Form:
+Enables the manager to register new product types.
+
+Product Registration Form:
+Allows the manager to register new products, including details like name, description, price, etc.
+
+Order Placement Form:
+Allows customers to place orders by selecting products and providing their details like name, address, and contact information.
+
+Delivery Recording Form:
+Enables staff to record deliveries by linking them to specific orders.
+
+Summary Report Form:
+Provides a summary report for the manager, displaying information such as sales, profits, and other relevant metrics.
+
+
+
+
+Flow for Ted Shop System:
+
+Manager Operations:
+Registers staff members using the Staff Registration Form.
+Registers product types using the Product Type Registration Form.
+Registers products using the Product Registration Form.
+Accesses the Summary Report Form to view sales and profits.
+
+Staff Operations:
+Records deliveries using the Delivery Recording Form.
+Customer Operations:
+Places orders using the Order Placement Form.
